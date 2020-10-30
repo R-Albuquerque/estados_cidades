@@ -1,4 +1,9 @@
 
+window.onload = function() {
+  let element = document.getElementById("estado");
+  element.selectedIndex = 0;
+}
+
 function selecionarCidades(c){
    document.getElementById("seleCidades").innerHTML = '';
    var cidSelect = document.getElementById("seleCidades");
